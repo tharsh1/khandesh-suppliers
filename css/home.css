@@ -1,0 +1,22 @@
+.company-logo {
+	height: 50px;
+}
+.company-name {
+	
+}
+
+.carousel-inner img {
+	width: auto;
+	height: 500px;
+	
+}
+.highlights-container {
+	
+	
+}
+.highlight-1-content, .highlight-2-content, .highlight-3-content {
+	background-color:azure;
+	height: 200px;
+	border: 1px solid black;
+	padding: 20%;
+}
