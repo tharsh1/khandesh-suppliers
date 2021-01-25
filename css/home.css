@@ -1,8 +1,11 @@
+/* body{
+	font-family: "Roboto", sans-serif;
+} */
 .company-logo {
 	height: 50px;
 }
 .company-name {
-	
+
 }
 
 .carousel-inner img {
@@ -75,3 +78,62 @@
 	color: white;
 	background-color: blue;
 }
+
+#myFooter{
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+#myFooter .myFooter-top {
+    background-color: #333;
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+
+#myFooter .myFooter-top .myFooter-top-area {
+	display: inline;
+	float: left;
+	width: 100%;
+	color: #fff;
+}
+
+#myFooter .myFooter-top .myFooter-top-area h4{
+	color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+
+#myFooter .myFooter-bottom {
+	background-color: #222;
+	display: inline;
+	float: left;
+	padding: 25px 0;
+	width: 100%;
+	font-size: px;
+}
+
+#myFooter .myFooter-bottom .myFooter-bottom-area {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+#myFooter .myFooter-bottom .myFooter-bottom-area p {
+	color: #fff;
+	margin-bottom: 0;
+	letter-spacing: 0.3px;
+}
+
+#myFooter .myFooter-bottom .myFooter-bottom-area p a {
+	color: #fff;
+} 
