@@ -1,10 +1,11 @@
-/* body{
-	font-family: "Roboto", sans-serif;
-} */
+
+.gallery-image {
+    height: 100%;
+    width: 100%;
+}
 .company-logo {
 	height: 50px;
 }
-
 .breadcrumb{
     background-color: #f4eeff;
     display: inline;
@@ -44,39 +45,6 @@
     letter-spacing: 0.3px;
     line-height: 1.7;
     /* padding: 0 120px; */
-}
-
-.contact-form{
-    display: inline;
-    float: left;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.contact-form-left{
-    display: inline;
-    float: left;
-    width: 100%;
-}
-
-.contact-map-right{
-    display: inline;
-    float: left;
-    width: 100%;
-}
-
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:500px;
-    width:100%;
-}
-
-.gmap_canvas{
-    overflow:hidden;
-    background:none!important;
-    height:500px;
-    width:100%;
 }
 
 .scrollToTop {
