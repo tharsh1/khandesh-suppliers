@@ -30,7 +30,7 @@
 	border: 1px solid black;
 	padding: 20%;
 }
-.features-title {
+.salient-features-header {
 	text-align: center;
 }
 .feature {
@@ -138,3 +138,6 @@ address {
 #myFooter .myFooter-bottom .myFooter-bottom-area p a {
 	color: #fff;
 } 
+.from-the-desk-header {
+	text-align: center;
+}
