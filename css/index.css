@@ -202,12 +202,17 @@ address {
 		margin: 0px;
 	}
 
-	.salient-features-header {
-		font-size: 14px;
+
+	.salient-features-header > h2{
+		font-size: 22px;
 	}
 
 	.salient-features-header > p{
 		font-size: 15px;
+	}
+
+	.from-the-desk-header > h2{
+		font-size: 22px;
 	}
 
 	.from-the-desk-header > p{
@@ -220,11 +225,13 @@ address {
 
 	.col-sm-6{
 		text-align: center;
+		font-size: 18px;
 	}
 
 	.navbar-light .navbar-nav .nav-item .nav-link{
 		padding-left: 5%;
 	}
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
