@@ -302,6 +302,14 @@ address {
 		line-height: 1.7;
 		font-size: 14px;
 	}
+
+	.navbar-light .navbar-nav .nav-item .nav-link{
+		padding-left: 5%;
+	}
+
+	.mapouter{
+		padding-top: 5%;
+	}
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -327,6 +335,10 @@ address {
 		letter-spacing: 0.3px;
 		line-height: 1.7;
 		font-size: 16px;
+	}
+
+	.mapouter{
+		padding-top: 5%;
 	}
 }
 

@@ -221,6 +221,10 @@ address {
 	.col-sm-6{
 		text-align: center;
 	}
+
+	.navbar-light .navbar-nav .nav-item .nav-link{
+		padding-left: 5%;
+	}
 }
 
  /* Small devices (landscape phones, 576px and up) */
