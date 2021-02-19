@@ -1,5 +1,5 @@
 body{
-	font-family: "Roboto", sans-serif;
+	font-family: "Cambria", sans-serif;
 	font-size: 20px;
 }
 
@@ -31,32 +31,8 @@ body{
 	border-bottom: 2px solid #8f00ff;
 }
 
-.salient-features-header {
-	padding-top: 5%;
-    text-align: center;
-}
-
-.salient-features-header > p{
-	font-size: 16px;
-}
-
-.from-the-desk-header {
-	padding-top: 5%;
-    text-align: center;
-}
-
-.from-the-desk-header > p{
-	font-size: 16px;
-}
-
-.carousel-inner img {
-	width: auto;
-	height: 500px;
-	
-}
-
 .breadcrumb{
-    background-color: #f4eeff;
+    background-color: #072050;
     display: inline;
     float: left;
     padding: 30px 0;
@@ -66,7 +42,9 @@ body{
 
 .breadcrumb h2{
     text-align: center;
-    color: black;
+    color: #54EFE8;
+	font-weight: bold;
+	letter-spacing: 5px;
 }
 
 /* Director Section */
@@ -74,47 +52,69 @@ body{
 
 }
 .director-image-container {
-
+	overflow: hidden;
+	margin: 0 auto;
 }
 .director-image {
     width: 100%;
     height: auto;
+	transition: 0.5s all ease-in-out;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.director-statement-container {
+.director-image-container:hover .director-image { 
+	transform: scale(1.5); 
+} 
+.director-statement > h2{
+	font-size: 30px;
+	text-align: justify;
+	color: #072050;
+	font-weight: bold;
+}
+.director-statement {
+	font-size: 16px;
+	text-align: justify;
+	color: #072050;
 }
 
 /* Vision-Mission-Value Section */
 
+
 .vision-container, .mission-container, .value-container {
-    background-color: wheat;
     
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#ffffff,#f0fffe);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .vision-logo-container, .mission-logo-container, .value-logo-container {
-    height: 20%;
-    background-color: violet;
+    padding: 3%;
+    background-color: #072050;
     text-align: center;
+	
 }
-.vision-title-container, .mission-title-container, .value-title-container {
-    height: 20%;
-    background-color: tomato;
-    text-align: center;
+.vision-statement-container > h2, .mission-statement-container > h2, .value-statement-container > h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #072050;
+	
 }
 .vision-statement-container, .mission-statement-container, .value-statement-container {
-    height: 350px;
-    background-color:steelblue;
-	text-align: center;
-}
-.vision-logo {
-    
-}
-.vision-title, .mission-title, .value-title {
-    font-weight: 600;
-    text-decoration: underline;
-    font-size: xx-large;
-    margin-bottom:auto;
-    margin-top: auto;
+	text-align: justify;
+	font-size: 16px;
+	padding: 5%;
+	color: #072050;
+	
 }
 
+/* Color of logo: #54EFE8 */
+.vision-logo, .mission-logo, .value-logo {
+    height: 10%;
+	width: 25%;
+}
+
+.vision-statement, .mission-statement, .value-statement {
+	padding-top: 10%;
+}
 
 
 .scrollToTop {
@@ -241,8 +241,9 @@ address {
 
 	.breadcrumb h2 {
 		text-align: center;
-		color: black;
-		font-size: 32px;
+		color: #54EFE8;
+		font-weight: bold;
+		letter-spacing: 5px;
 	}
 
 	#contact-content {
