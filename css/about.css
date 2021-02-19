@@ -81,33 +81,33 @@ body{
     height: auto;
 }
 .director-statement-container {
-    height:100px;
-    background-color: yellowgreen;
 }
 
 /* Vision-Mission-Value Section */
+
 .vision-container, .mission-container, .value-container {
     background-color: wheat;
-    height: 500px;
+    
 }
-.vision-logo-container {
+.vision-logo-container, .mission-logo-container, .value-logo-container {
     height: 20%;
     background-color: violet;
     text-align: center;
 }
-.vision-title-container {
+.vision-title-container, .mission-title-container, .value-title-container {
     height: 20%;
     background-color: tomato;
     text-align: center;
 }
-.vision-statement-container {
-    height: 60%;
+.vision-statement-container, .mission-statement-container, .value-statement-container {
+    height: 350px;
     background-color:steelblue;
+	text-align: center;
 }
 .vision-logo {
     
 }
-.vision-title {
+.vision-title, .mission-title, .value-title {
     font-weight: 600;
     text-decoration: underline;
     font-size: xx-large;
