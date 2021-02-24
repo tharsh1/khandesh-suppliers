@@ -31,6 +31,30 @@ body{
 	border-bottom: 2px solid #8f00ff;
 }
 
+.salient-features-header {
+	padding-top: 5%;
+    text-align: center;
+}
+
+.salient-features-header > p{
+	font-size: 16px;
+}
+
+.from-the-desk-header {
+	padding-top: 5%;
+    text-align: center;
+}
+
+.from-the-desk-header > p{
+	font-size: 16px;
+}
+
+.carousel-inner img {
+	width: auto;
+	height: 500px;
+	
+}
+
 .breadcrumb{
     background-color: #072050;
     display: inline;
@@ -42,28 +66,51 @@ body{
 
 .breadcrumb h2{
     text-align: center;
-    color: #54EFE8;
-	font-weight: bold;
+    color:#54EFE8;
 	letter-spacing: 5px;
 }
 
 /* Director Section */
-.director-section{
 
+#director-content{
+    display: inline;
+    float: left;
+    /* padding: 100px 0; */
+    width: 100%;
 }
+
 .director-image-container {
 	overflow: hidden;
 	margin: 0 auto;
+	position: relative;
+	height: 90%;
+	padding-top: 8%;
 }
+
 .director-image {
     width: 100%;
     height: auto;
 	transition: 0.5s all ease-in-out;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: antiquewhite;
 }
-.director-image-container:hover .director-image { 
+
+/* .director-image-container:hover .director-image { 
 	transform: scale(1.5); 
-} 
+}  */
+
+.director-name {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 100%;
+	padding: 4px;
+	padding-left: 5%;
+	text-align: left;
+}
+  
 .director-statement > h2{
 	font-size: 30px;
 	text-align: justify;
@@ -76,40 +123,56 @@ body{
 	color: #072050;
 }
 
-/* Vision-Mission-Value Section */
 
+
+
+/* Vision-Mission-Value Section */
+.vision-mission{
+	display: inline;
+    float: left;
+    /* padding: 100px 0; */
+    width: 100%;
+	background-color: white;
+}
+
+.vmv-container {
+	background-color: coral;
+	float: bottom;
+}
+
+.vision-mission-row{
+	padding: 4%;
+}
 
 .vision-container, .mission-container, .value-container {
-    
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(#ffffff,#f0fffe);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: brown;
 }
+
 .vision-logo-container, .mission-logo-container, .value-logo-container {
     padding: 3%;
     background-color: #072050;
     text-align: center;
-	
 }
-.vision-statement-container > h2, .mission-statement-container > h2, .value-statement-container > h2 {
+.vision-statement-container > h3, .mission-statement-container > h3, .value-statement-container > h3{
 	text-align: center;
 	font-weight: bold;
 	color: #072050;
-	
 }
 .vision-statement-container, .mission-statement-container, .value-statement-container {
 	text-align: justify;
 	font-size: 16px;
 	padding: 5%;
 	color: #072050;
-	
 }
 
 /* Color of logo: #54EFE8 */
 .vision-logo, .mission-logo, .value-logo {
-    height: 10%;
-	width: 25%;
+    /* height: 10%; */
+	width: 16%;
 }
 
 .vision-statement, .mission-statement, .value-statement {
@@ -117,10 +180,39 @@ body{
 }
 
 
+
+
+
+.highlight-1-content, .highlight-2-content, .highlight-3-content {
+	background-color:azure;
+	height: 200px;
+	border: 1px solid black;
+	padding: 20%;
+}
+.aboutus-1, .aboutus-2 {
+	background-color: blanchedalmond;
+	height: 500px;
+	border: 1px solid black;
+	padding: 20%;
+}
+.salient-features-header {
+	text-align: center;
+}
+.feature {
+	height: 200px;
+	margin: 5%;
+	padding: 10%;
+	border: 1px solid black;
+}
+
+.features-title-container {
+	background-color: #f4eeff;
+}
+
 .scrollToTop {
 	border-radius: 4px;
 	bottom: 60px;
-	background-color: #8f00ff;
+	background-color: #072050;
 	color: #fff;
 	display: none;
 	font-size: 30px;
@@ -154,7 +246,7 @@ body{
   
 .scrollToTop:hover {
 	color: white;
-	background-color: #8f00ff;
+	background-color:#072050;
 }
 
 #myFooter{
@@ -239,38 +331,31 @@ address {
 		font-size: 18px;
 	}
 
-	.breadcrumb h2 {
-		text-align: center;
-		color: #54EFE8;
-		font-weight: bold;
-		letter-spacing: 5px;
-	}
 
-	#contact-content {
+	#director-content {
 		display: inline;
 		float: left;
-		padding: 50px 0;
+		/* padding: 50px 0; */
 		width: 100%;
 	}
 
-	.contact-title h2 {
-		color: #000;
-		margin-bottom: 10px;
-		text-transform: uppercase;
-		font-size: 24px;
-	}
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        height: auto;
+    }
 
-	.contact-title p {
-		color: #555;
-		letter-spacing: 0.3px;
-		line-height: 1.7;
-		font-size: 14px;
-	}
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
 	.navbar-light .navbar-nav .nav-item .nav-link{
 		padding-left: 5%;
 	}
-	
+
 }
 
  /* Small devices (landscape phones, 576px and up) */
@@ -298,8 +383,26 @@ address {
 		font-size: 16px;
 	}
 
-	.mapouter{
-		padding-top: 5%;
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+	.vision-container, .mission-container, .value-container {
+		height: 100%;
+		width: 80%;
+		margin-left: 10%;
+		background-image: linear-gradient(#ffffff,#f0fffe);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 }
 
@@ -312,6 +415,28 @@ address {
 	.navbar-brand{
 		margin: 0px;
 	}
+
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .director-image {
+        width: 100%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+	.vision-container, .mission-container, .value-container {
+		height: 100%;
+		width: 80%;
+		margin-left: 10%;
+		background-image: linear-gradient(#ffffff,#f0fffe);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -322,6 +447,38 @@ address {
 
 	.navbar-brand{
 		margin: 0px;
+	}
+    .col-lg-4{
+        max-width: 100%;
+    }
+    .director-image-container {
+        overflow: hidden;
+        margin: 0 auto;
+        width: 100%;
+		height: 67%;
+    }
+
+    .director-image {
+        width: 100%;
+        height: 100%;
+        transition: 0.5s all ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+	.director-name {
+		position: absolute;
+		bottom: 0;
+		background: rgb(0, 0, 0); /* Fallback color */
+		background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		color: #f1f1f1;
+		width: 100%;
+		padding: 4px;
+		padding-left: 5%;
+		text-align: left;
+	}
+
+	.vision-mission-row{
+		padding: 0px;
 	}
 }
 
